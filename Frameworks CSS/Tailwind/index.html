@@ -3,51 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Frameworks CSS/Tailwind/src/output.css">
     <title>Tailwind - CSS</title>
 </head>
 <body>
     <header>
-        <section id="header-menu">
-            <div class="menu-btns">
-                <li class="header-btns">
-                    <ul id="home">Home</ul>
-                    <ul id="sobre">Sobre</ul>
-                    <ul id="produtos">Produtos</ul>
-                    <ul id="contato">Contato</ul>
-                    <ul id="login">LOGIN</ul>
-                </li>
-            </div>
-            <div class="header-logo">
-                <img src="images/logo-tacos.png" alt="Logo Taco">
-            </div>
+        <section class="head">
+            <li class="bg-red-600 text-white text-center p-3">
+                <ul class="login">LOGIN</ul>
+            </li>
         </section>
     </header>
     <main>
-        <section id="hero-content">
-            <h3 id="h3-hero-title">Traditional Mexican</h3>
-            <h2 id="h2-hero-title">Taco Restaurant</h2>
-            <hr id="horizontal-line">
-            <a id="hero-view-more" href="#">View More</a>
+        <section class="bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/banner-tacos-burritos.jpg')] bg-center bg-cover h-150 bg-black">
+            <div class="max-w-40">
+                <img src="images/logo-tacos.png" alt="Logo Taco">
+            </div>
+            <div class="text-center">
+                <h3 class="">Traditional Mexican</h3>
+                <h2 class="">Taco <strong>Restaurant</strong></h2>
+                <hr class="">
+                <a href="#" class="">View More</a>
+            </div>
         </section>
-        <section id="taco-history">
-            <div class="history-photo">
-                <img src="images/sobre.jpg"
+        <section class="taco-history">
+            <div class="">
+                <img src="images/sobre.jpg"  alt="Taco's History">
             </div>
-            <div class="history-tacos">
-                <div class="we-have-exp">
-                    <h2 class="h2-title-size">We Have Experience</h2>
+            <div class="">
+                <div class="">
+                    <h2 class="">We Have Experience</h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aperiam commodi pariatur debitis nostrum iure provident impedit, magni doloremque!</p>
                 </div>
-                <div class="years-history">
-                    <h2 class="h2-title-size">28 Years of History</h2>
+                <div class="">
+                    <h2 class="">28 Years of History</h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aperiam commodi pariatur debitis nostrum iure provident impedit, magni doloremque!</p>
                 </div>
-                <div class="taco-chefs">
-                    <h2 class="h2-title-size">Expert Taco Chefs</h2>
+                <div class="">
+                    <h2 class="">Expert Taco Chefs</h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aperiam commodi pariatur debitis nostrum iure provident impedit, magni doloremque!</p>
                 </div>
             </div>
+            <section class="view-more-foods">
+                <div class="">
+                    <img src="images/tacos1.jpg" alt="Tacos 1">
+                    <h2 class="">Tacos</h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#" class="">View More</a>
+                </div>
+                <div class="">
+                    <img src="images/burrito1.png" alt="Burritos 1">
+                    <h2 class="">Burritos</h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#" class="">View More</a>
+                </div>
+                <div class="">
+                    <img src="images/pan1.jpg" alt="Pan 1">
+                    <h2 class="">Pan</h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#" class="">View More</a>
+                </div>
+            </section>
+            <section class="popular-tacos">
+                <div class="">
+                    <h2 class="">Popular <strong>Tacos</strong></h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut et eum ullam numquam rem dolorum nisi ut, accusamus provident aliquam voluptate.</p>
+                </div>
+                <div class="">
+                    <div class="">
+                        <hr class="">
+                        <img src="images/taco-no-background.jpg" alt="Foto Taco">
+                        <h3 class="">Emula</h3>
+                    </div>
+                    <div class="">
+                        <hr class="">
+                        <img src="images/taco-no-background.jpg" alt="Foto Taco">
+                        <h3 class="">Axare</h3>
+                    </div>
+                    <div class="">
+                        <hr class="">
+                        <img src="images/taco-no-background.jpg" alt="Foto Taco">
+                        <h3 class="">Sanches</h3>
+                    </div>
+                    <div class="">
+                        <hr class="">
+                        <img src="images/taco-no-background.jpg" alt="Foto Taco">
+                        <h3 class="">Murra</h3>
+                    </div>
+                    <a href="#" class="pop-view-more-btn">View More</a>
+                </div>
+            </section>
+            <section class="contact-us">
+                <div class="">
+                    <img src="images/banner-tacos-burritos.jpg" alt="Background">
+                </div>
+                <div class="">
+                    <h2 class="">Contact<strong>Us</strong></h2>
+                    <hr class="">
+                    <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint pariatur repellat provident ad perspiciatis atque asperiores fuga dicta?</p>
+                </div>
+                <div class="">
+                    <div class="">
+                        <img src="images/pin-amarelo.png" alt="Pin Amarelo">
+                        <h3 class="">Address</h3>
+                        <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="">
+                        <img src="images/call-verde.png" alt="Telefone Verde">
+                        <h3 class="">Phone</h3>
+                        <p class="">0800 850 54 85</p>
+                        <p class="">0800 695 87 45</p>
+                    </div>
+                    <div class="">
+                        <img src="images/chat-vermelho.png" alt="Chat Vermelho">
+                        <h3 class="">Email</h3>
+                        <p class="">contato@tacos.express</p>
+                        <p class="">pedido@tacos.express</p>
+                    </div>
+                </div>
+            </section>
         </section>
     </main>
     <footer>
-
+        <img src="images/logo-youtube.png" alt="Logo Youtube">
+        <img src="images/logo-facebook.png" alt="Logo Facebook">
+        <img src="images/logo-x.png" alt="Logo X/Twitter">
+        <img src="images/logo-instagram.png" alt="Logo Instagram">
     </footer>
 </body>
 </html>
